@@ -10,7 +10,7 @@
         'views/menu.xml',
         'views/image_import_wizard_views.xml',
         'static/description/index.html',  # Add this if you have the description HTML file
-        'static/description/thumbnail.png',  # Your thumbnail image for the module
+        'static/description/Odoo app thumbnail.png',  # Your thumbnail image for the module
     ],
     'license': 'OPL-1',
     'installable': True,
@@ -21,5 +21,5 @@
                       by matching filenames to product references, names, or barcodes. The app supports
                       case insensitivity, ignores dashes and underscores, and processes images in batches 
                       for smoother operation.""",
-    'icon': 'static/description/icon.png',  # Placeholder for your module icon (create and add this file)
+    'icon': 'static/description/module icon.png',  # Placeholder for your module icon (create and add this file)
 }
