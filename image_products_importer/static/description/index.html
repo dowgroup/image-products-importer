@@ -8,16 +8,15 @@
     body { font-family: Arial, sans-serif; color:#333; line-height:1.6; margin:0; padding:0; }
     .container { max-width: 900px; margin: 0 auto; padding: 24px; }
     h1, h2 { color:#0066cc; }
-    .lead { font-size: 1.05rem; }
-    ul { padding-left: 20px; }
+    .lead { font-size: 1.2rem; font-weight: 400; }
+    ul { padding-left: 20px; font-size: 1.1rem; }
     .screenshots img { width:100%; height:auto; margin: 12px 0; border-radius: 6px; }
     .thumb { display:block; margin: 12px auto 24px; max-width: 480px; width:100%; height:auto; border-radius: 12px; }
+    .highlight { font-weight: bold; font-size: 1.15rem; color: #000; }
   </style>
 </head>
 <body>
   <div class="container">
-  
-
     <h1>Bulk Image Importer</h1>
 
     <p class="lead">
@@ -27,7 +26,7 @@
 
     <h2>What Makes It Smart</h2>
     <ul>
-      <li><strong>Works no matter how your file names look:</strong><br/>
+      <li><span class="highlight">Case-Insensitive Matching:</span><br/>
         <em>Blue Chair.jpg</em>, <em>blue-chair.jpg</em>, or <em>Blue_Chair.JPG</em> → all match the product <em>Blue Chair</em>.<br/>
         <em>CHAIR123.jpg</em> → matches product <em>chair123</em>.
       </li>
