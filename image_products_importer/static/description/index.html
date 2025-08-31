@@ -1,112 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Image Importer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .header {
-            text-align: center;
-        }
-
-        .header img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .description {
-            margin-top: 20px;
-        }
-
-        .screenshots img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-        }
-
-        .features {
-            margin-top: 20px;
-        }
-
-        h1,
-        h2 {
-            color: #0066cc;
-        }
-
-        p {
-            font-size: 1rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bulk Image Importer</title>
+  <style>
+    body { font-family: Arial, sans-serif; color:#333; line-height:1.6; margin:0; padding:0; }
+    .container { max-width: 900px; margin: 0 auto; padding: 24px; }
+    h1, h2 { color:#0066cc; }
+    .lead { font-size: 1.05rem; }
+    ul { padding-left: 20px; }
+    .screenshots img { width:100%; height:auto; margin: 12px 0; border-radius: 6px; }
+    .thumb { display:block; margin: 12px auto 24px; max-width: 480px; width:100%; height:auto; border-radius: 12px; }
+  </style>
 </head>
-
 <body>
+  <div class="container">
+    <!-- Optional: show your thumbnail at the top -->
+    <img class="thumb" src="odoo_app_thumbnail.png" alt="Bulk Image Importer Thumbnail" />
 
-    <div class="container">
-        <!-- Module Thumbnail -->
-        <div class="header">
-            <img src="/your_module/static/description/thumbnail.png" alt="Product Image Importer Thumbnail">
-        </div>
+    <h1>Bulk Image Importer</h1>
 
-        <!-- Description of the App -->
-        <div class="description">
-            <h1>Product Image Importer</h1>
-            <p>
-                Bulk import product images by matching filenames to product references, names, or barcodes.
-                This app enables seamless and fast import of large batches of product images, ensuring accurate matching
-                of images to the respective products in your inventory.
-            </p>
-            <p>
-                Features include:
-            <ul>
-                <li>Bulk image import for multiple products at once</li>
-                <li>Support for case-insensitive matching and handling of underscores and dashes in filenames</li>
-                <li>Flexible matching based on product reference, name, or barcode</li>
-                <li>Batch processing for efficiency with large datasets</li>
-                <li>Easy integration into your existing Odoo inventory system</li>
-            </ul>
-            </p>
-        </div>
+    <p class="lead">
+      The <strong>Bulk Image Importer</strong> for Odoo makes product image management fast, accurate, and stress-free.
+      No more renaming files or uploading one by one — just drop your images in a folder and let the app do the work.
+    </p>
 
-        <!-- Screenshots of the App in Action -->
-        <div class="screenshots">
-            <h2>App in Action</h2>
-            <img src="/product_image_importer/static/description/odoo_image_preview_1.png" alt="Screenshot 1">
-            <img src="/product_image_importer/static/description/odoo_image_preview_2.png" alt="Screenshot 2">
-            <img src="/product_image_importer/static/description/odoo_image_preview_3.png" alt="Screenshot 3">
-            <img src="/product_image_importer/static/description/odoo_image_preview_4.png" alt="Screenshot 4">
-            <img src="/product_image_importer/static/description/odoo_image_preview_5.png" alt="Screenshot 5">
-            <img src="/product_image_importer/static/description/odoo_image_preview_6.png" alt="Screenshot 6">
-            <img src="/product_image_importer/static/description/Odoo_app_thumbnail.png" alt="App Thumbnail">
-            <img src="/product_image_importer/static/description/odoo_module_icon.png" alt="Module Icon">
-        </div>
+    <h2>What Makes It Smart</h2>
+    <ul>
+      <li><strong>Works no matter how your file names look:</strong><br/>
+        <em>Blue Chair.jpg</em>, <em>blue-chair.jpg</em>, or <em>Blue_Chair.JPG</em> → all match the product <em>Blue Chair</em>.<br/>
+        <em>CHAIR123.jpg</em> → matches product <em>chair123</em>.
+      </li>
+      <li><strong>Bulk Upload:</strong> Import hundreds or thousands of images in one go.</li>
+      <li><strong>Smart Matching:</strong> Finds the right product by Internal Reference (SKU), Barcode, or Product Name.</li>
+      <li><strong>Duplicate-Safe:</strong> Skips images that are already uploaded.</li>
+      <li><strong>Error-Proof:</strong> Files that don’t match any product are skipped automatically.</li>
+      <li><strong>Handles Big Catalogs:</strong> Optimized for large imports without slowing down Odoo.</li>
+      <li><strong>Easy Wizard UI:</strong> Anyone can use it — no technical skills needed.</li>
+    </ul>
 
+    <p class="lead"><strong>Why Choose This Importer?</strong><br/>
+      It’s built to save you time, prevent mistakes, and handle real-world file names — making it the most reliable way
+      to keep your Odoo catalog updated with images.
+    </p>
+    <p class="lead"><strong> Faster. Smarter. Easier.</strong></p>
 
-        <!-- Features Section -->
-        <div class="features">
-            <h2>Key Features:</h2>
-            <ul>
-                <li>Automates the process of importing product images based on filename matching</li>
-                <li>Compatible with Odoo inventory management system</li>
-                <li>Supports multiple image formats, including PNG, JPEG, and more</li>
-                <li>Reduces manual data entry and saves time for your team</li>
-                <li>Comes with an intuitive and easy-to-use interface</li>
-            </ul>
-        </div>
+    <h2>Screenshots</h2>
+    <div class="screenshots">
+      <img src="odoo image preview.png" alt="Screenshot 1" />
+      <img src="odoo image preview(2).png" alt="Screenshot 2" />
+      <img src="odoo image preview(3).png" alt="Screenshot 3" />
+      <img src="odoo image preview(4).png" alt="Screenshot 4" />
+      <img src="odoo image preview(5).png" alt="Screenshot 5" />
+      <img src="odoo image preview(6).png" alt="Screenshot 6" />
     </div>
-
+  </div>
 </body>
-
 </html>
