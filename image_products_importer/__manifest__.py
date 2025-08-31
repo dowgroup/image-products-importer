@@ -1,5 +1,5 @@
 {
-    'name': 'Bulk Image Importer',
+    'name': 'Product Image Importer',
     'version': '1.0',
     'summary': 'Easily bulk import product images by matching filenames to product references, names, or barcodes.',
     'category': 'Inventory',
