@@ -25,4 +25,8 @@ for smoother operation.
         'static/description/odoo_app_thumbnail.png',
     ],
     'icon': 'static/description/module_icon.png',
+    ],
+    'price': 100.0,
+    'currency': 'USD',
+    'application': True,
 }
