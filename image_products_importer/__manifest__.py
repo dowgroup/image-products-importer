@@ -39,7 +39,6 @@ Faster. Smarter. Easier.
     """,
     'images': [
         'static/description/odoo_app_thumbnail.png',  
-        'static/description/module_icon.png',
     ],
     'price': 100.0,
     'currency': 'USD',
