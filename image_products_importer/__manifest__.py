@@ -24,5 +24,5 @@ for smoother operation.
     'images': [
         'static/description/odoo_app_thumbnail.png',
     ],
-    'icon': 'static/description/odoo_module_icon.png',
+    'icon': 'static/description/module_icon.png',
 }
