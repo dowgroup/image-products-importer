@@ -38,7 +38,6 @@ It’s built to save you time, prevent mistakes, and handle real-world file name
 Faster. Smarter. Easier.
     """,
     'images': [
-        'static/description/module_icon.png',   # ✅ now used as app icon
         'static/description/odoo_app_thumbnail.png',
     ],
     'price': 100.0,
