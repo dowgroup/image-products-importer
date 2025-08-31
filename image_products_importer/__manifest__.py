@@ -21,7 +21,7 @@ No more renaming files or uploading one by one — just drop your images in a fo
 
 What Makes It Smart
 -------------------
-- Works no matter how your file names look:
+- **Case-Insensitive Matching**: Works no matter how your file names look.
   - Blue Chair.jpg, blue-chair.jpg, or Blue_Chair.JPG → all match the product Blue Chair.
   - CHAIR123.jpg → matches product chair123.
 - Bulk Upload: Import hundreds or thousands of images in one go.
@@ -38,9 +38,9 @@ It’s built to save you time, prevent mistakes, and handle real-world file name
 Faster. Smarter. Easier.
     """,
     'images': [
+        'static/description/module_icon.png',   # ✅ now used as app icon
         'static/description/odoo_app_thumbnail.png',
     ],
-    'icon': 'static/description/module_icon.png',
     'price': 100.0,
     'currency': 'USD',
 }
