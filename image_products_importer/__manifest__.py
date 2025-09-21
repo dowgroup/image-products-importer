@@ -1,7 +1,7 @@
 {
     'name': 'Product Image Importer',
     'version': '1.0',
-    'summary': 'Easily bulk import product images by matching filenames to product references, names, or barcodes.',
+    'summary': 'Matches even with different capital letters and dashes! Easily bulk import product images by matching filenames to product references, names, or barcodes.',
     'category': 'Inventory',
     'author': 'Dow Group',
     'website': 'https://www.dowgroup.com',
@@ -47,6 +47,6 @@ Faster. Smarter. Easier.
         'static/description/odoo image preview(6).svg',
     ],
     'icon': 'static/description/icon.png',
-    'price': 100.0,
+    'price': 14.0,
     'currency': 'USD',
 }
