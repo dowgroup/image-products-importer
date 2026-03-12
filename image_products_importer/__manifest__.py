@@ -47,6 +47,5 @@ Faster. Smarter. Easier.
         'static/description/odoo image preview(6).svg',
     ],
     'icon': 'static/description/icon.png',
-    'price': 14.0,
     'currency': 'USD',
 }
